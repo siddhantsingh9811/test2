@@ -132,10 +132,10 @@ background-color: black;
 }
 h1
 {
-font-family: verdana;
+font-family: 'Ubuntu', sans-serif;
 text-transform: uppercase;
 }
 p
 {
-font-family: calibri;
+font-family: 'Open Sans Condensed', sans-serif;
 }
