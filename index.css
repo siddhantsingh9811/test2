@@ -1,0 +1,141 @@
+body
+{
+padding:0;
+margin:0;
+background-color: #343434;
+}
+body
+{
+margin:0;
+font-family: 'Roboto', sans-serif;
+font-size: 40px;
+color: white;
+}
+.q
+{
+}
+.a1,.a2,.a3,.a4
+{
+position: relative;
+
+width: 25%;
+height: 100%;
+}
+.intro
+{
+height: 100%;
+width: 400%;
+display: flex;
+position:relative;
+transition: all 1s ease;
+left:0;
+}
+.whole
+{
+height: 100%;
+width: 100%;
+overflow: hidden;
+}
+.x
+{
+left: 50%;
+transform: scale(0.4) translateX(800px);
+
+top: 0;
+}
+
+.a
+{
+height: 100vh;
+width: 50%;
+background: url("https://static.carthrottle.com/workspace/uploads/comments/2015/04/tumblr_mgagp0bcvx1roly9io1_r1_-5536ae2f9254e.jpg");
+background-attachment: fixed;
+background-size: 30%;
+background-repeat: no-repeat;
+font-family: arial;
+font-size: 13.4em;
+position: absolute;
+font-weight: bold;
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+.b
+{
+height: 100vh;
+width: 50%;
+background: url("http://www.picshouse2.com/vb/imgcache/2/18813poster.jpg");
+background-attachment: fixed;
+background-size: 30%;
+background-repeat: no-repeat;
+font-family: arial;
+font-size: 13.4em;
+position: absolute;
+font-weight: bold;
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+.c
+{
+height: 100vh;
+width: 50%;
+background: url("https://static.carthrottle.com/workspace/uploads/comments/2015/07/screenshot_2015-07-08-13-58-06-559d8f47a69ec.png");
+background-attachment: fixed;
+background-size: 30%;
+background-repeat: no-repeat;
+font-family: arial;
+font-size: 13.4em;
+position: absolute;
+font-weight: bold;
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+.d
+{
+height: 100vh;
+width: 50%;
+	background: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/07/sports-car-wallpaper-for-mobile-phone.jpg");
+	background-attachment: fixed;
+background-size: 30%;
+background-repeat: no-repeat;
+font-family: arial;
+font-size: 13.4em;
+position: absolute;
+font-weight: bold;
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+.b1,.b2,.b3,.b4
+{
+height: 10px;
+width: 10px;
+border-radius: 10px;
+border:2px solid white;
+background-color: white;
+display: inline-block;
+}
+.k
+{
+position: fixed;
+}
+.p{
+	height: 10px;
+	width: auto;
+position: absolute;
+top:90%;
+left: 50%;
+transform: translateX(-50%);
+cursor: pointer;
+}
+.b1
+{
+background-color: black;
+}
+h1
+{
+font-family: verdana;
+text-transform: uppercase;
+}
+p
+{
+font-family: calibri;
+}

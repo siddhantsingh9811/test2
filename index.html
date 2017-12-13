@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test</title>
+	<link rel="stylesheet" type="text/css" href="d.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Share+Tech+Mono" rel="stylesheet">
+</head>
+<body>
+<div class="whole">
+	<center>
+	<div class="p">
+		<div class="b1 ,k"></div>
+		<div class="b2 ,k"></div>
+		<div class="b3 ,k"></div>
+		<div class="b4 ,k"></div>
+	</div>
+	</center>	
+	<div class="intro">
+		<div class="a1,q">
+			<div class="a">C</div>
+			<div class="x">
+				<u><h1 >case 1</h1></u>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+		<div class="a2,q">
+			<div class="b">A</div>
+			<div class="x">
+				<u><h1>case 2</h1></u>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+		<div class="a3,q">
+			<div class="c">R</div>
+			<div class="x">
+				<u><h1>case 3</h1></u>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+		<div class="a4,q">
+			<div class="d">S</div>
+			<div class="x">
+				<u><h1>case 4</h1></u>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(".b1").click(function(){
+    $(".intro").css("left", "0");
+    $('.b1').css('background-color',"black")
+    $('.b2').css('background-color',"white")
+    $('.b3').css('background-color',"white")
+    $('.b4').css('background-color',"white")
+});
+$(".b2").click(function(){
+    $(".intro").css("left", "-100%");
+    $('.b1').css('background-color',"white")
+    $('.b2').css('background-color',"black")
+    $('.b3').css('background-color',"white")
+    $('.b4').css('background-color',"white")
+});
+$(".b3").click(function(){
+    $(".intro").css("left", "-200%");
+    $('.b1').css('background-color',"white")
+    $('.b2').css('background-color',"white")
+    $('.b3').css('background-color',"black")
+    $('.b4').css('background-color',"white")
+});
+$(".b4").click(function(){
+    $(".intro").css("left", "-300%");
+    $('.b1').css('background-color',"white")
+    $('.b2').css('background-color',"white")
+    $('.b3').css('background-color',"white")
+    $('.b4').css('background-color',"black")
+});
+	})
+
+
+</script>
+</body>
+</html>
